@@ -1,8 +1,9 @@
 {
-  "rewrites": [
+  "devCommand": "npm run dev",
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "src": "/(.*)",
+      "dest": "/"
     }
   ]
 }
